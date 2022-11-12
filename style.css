@@ -1,0 +1,32 @@
+* {
+  font-family: poppins;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 42px;
+  font-weight: 600;
+  /* color: linear-gradient(red, green); */
+  background: linear-gradient(to right, #04aae1, #0d6efd);
+  /* text-shadow: 0x 2px 3px; */
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.upload-img {
+  height: 42vh;
+  width: 21vw;
+  margin: 50px;
+}
+.input-field {
+  margin-top: 20px;
+}
+button {
+  display: block !important;
+}
+
+.aside {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-evenly;
+}
